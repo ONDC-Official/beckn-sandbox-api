@@ -1,7 +1,7 @@
 {
     "context": {
         "country": "IND",
-        "domain": "nic2004:60221",
+        "domain": "ONDC:TRV10",
         "timestamp": "2023-03-23T04:48:53Z",
         "bap_id": "example-bap.com",
         "message_id": "8926b747-0362-4fcc-b795-0994a6287700",

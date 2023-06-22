@@ -1,6 +1,5 @@
 import { DomainNotFoundException } from "src/common/exception/domain-notfound.exception";
 import { OndcApiService } from "src/ondc/ondc-api.service";
-import { UmtcApiService } from "src/umtc/umtc-api.service";
 
 import { Injectable } from "@nestjs/common";
 
@@ -13,8 +12,6 @@ export class MobilityService {
         switch (domain) {
             case MobilityTypeEnum.ONDC:
                 return new OndcApiService();
-            case MobilityTypeEnum.UMTC:
-                return new UmtcApiService();
             default:
                 throw new DomainNotFoundException();
         }
