@@ -7,7 +7,7 @@
 ```json
 {
     "context": {
-        "domain": "mobility:ridehailing:0.8.0",
+        "domain": "ONDC:TRV10",
         "core_version": "0.9.4",
         "action": "search",
         "bap_id": "beckn-sandbox-bap.becknprotocol.io",

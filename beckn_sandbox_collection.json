@@ -1442,7 +1442,7 @@
 		},
 		{
 			"key": "ONDC_DOMAIN",
-			"value": "mobility:ridehailing:0.8.0",
+			"value": "ONDC:TRV10",
 			"type": "string"
 		},
 		{
