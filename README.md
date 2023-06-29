@@ -57,6 +57,14 @@ Please follow the [README.md](https://github.com/beckn/beckn-sandbox-webhook/blo
 
 Please follow the setup instructions at [setup.md](https://github.com/beckn/protocol-server/blob/v2-0.9.4-fix/setup.md) of protocol server.
 
+### Docker installation
+1. Go the project directory
+2. Follow the below steps for the docker build and start the docker image.
+  ```bash
+    docker build -t sandbox-api .
+    docker run --name sandbox-api -it -d --network host sandbox-api:latest
+  ```
+
 ## User Guide
 
 Please follow the user guide at [USER_GUIDE.md](./USER_GUIDE.md).
