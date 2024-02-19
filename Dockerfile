@@ -6,11 +6,10 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 COPY . ./
 
-RUN ls -ltrh
 
 RUN npm install
-RUN npm i -g pm2
+#RUN npm i -g pm2
 RUN npm run build
 
-EXPOSE 3000
-CMD [ "pm2-runtime", "ecosystem.config.js" ]
+EXPOSE 4000
+CMD [ "npm", "start" ]
